@@ -1,6 +1,6 @@
-# Literalura 📚
+# Literalura 📝
 
-Desarrollo del Challenge de gestión de libros, impuesto por Alura Latam en colaboración con Oracle en el programa ONE, como parte de la especialización Back-End.
+Desarrollo del Challenge de gestión de libros, solicitado por Alura Latam en colaboración con Oracle en el programa ONE, como parte de la especialización Back-End.
 
 ## Descripción 📝
 
@@ -8,14 +8,12 @@ Este proyecto es un Gestor de Libros desarrollado en Java que te permite buscar 
 
 ## Pilares Tecnológicos 💡
 
-- **Lenguaje de Programación:** Java
-- **API de Libros:** Se utilizó una API externa (gutendex.com) para obtener información sobre libros y autores.
-- **Spring Framework:** Para la gestión de la inyección de dependencias y acceso a la base de datos.
-- **Base de Datos:** Utilización de una base de datos (posiblemente H2, MySQL, etc.) para el almacenamiento de datos.
-- **Control de Versiones:** Git/GitHub se usaron para el control de versiones del proyecto y la colaboración en equipo.
-- **Entorno de Desarrollo Integrado (IDE):** IntelliJ IDEA fue el entorno de desarrollo utilizado para escribir, depurar y ejecutar el código Java.
+- **Java**: Lenguaje principal de desarrollo.
+- **Spring Boot**: Framework utilizado para la configuración y desarrollo del backend.
+- **PostgreSQL**: Sistema de base de datos relacional.
+- **Maven**: Herramienta de gestión de dependencias y construcción del proyecto.
 
-## Estructura del Proyecto 🗂�?
+## Estructura del Proyecto 🗂️
 
 ### Principal.java
 
@@ -29,9 +27,6 @@ El punto de entrada principal del programa. Aquí se maneja la interacción con 
 - Listar autores registrados.
 - Listar autores vivos en un determinado año.
 - Listar libros por idioma.
-- Obtener estadísticas generales.
-- Listar los 10 libros más descargados.
-- Listar autores nacidos o fallecidos en algún año específico.
 
 ### ConsumoApi.java
 
@@ -75,7 +70,14 @@ La clase `DatosLibro` representa la información de un libro obtenida de la API.
 - **numeroDeDescargas**: Número de descargas del libro.
 
 
-## 👨‍�?Desarrollado por
+## 👨‍💻 Desarrollado por
 - Pérez Juan Eduardo
 
-¡Disfruta gestionando tu biblioteca de libros!
+Instrucciones de Uso 📋
+Descarga o clona el repositorio desde GitHub
+Abre el proyecto en IntelliJ IDEA o tu IDE favorito.
+Configura la conexión a la base de datos en el archivo de propiedades correspondiente.
+Ejecuta la aplicación desde la clase Principal.java.
+Sigue las instrucciones en pantalla para buscar libros, autores y obtener estadísticas.
+
+Disfruta gestionando tu biblioteca de libros!
