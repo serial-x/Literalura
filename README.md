@@ -73,7 +73,7 @@ La clase `DatosLibro` representa la información de un libro obtenida de la API.
 ## 👨‍💻 Desarrollado por
 - Pérez Juan Eduardo
 
-Instrucciones de Uso 📋
+## Instrucciones de Uso 📋
 Descarga o clona el repositorio desde GitHub
 Abre el proyecto en IntelliJ IDEA o tu IDE favorito.
 Configura la conexión a la base de datos en el archivo de propiedades correspondiente.
